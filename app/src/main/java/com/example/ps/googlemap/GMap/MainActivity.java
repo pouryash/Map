@@ -136,7 +136,6 @@ public class MainActivity extends RuntimePermissionsActivity implements Location
         mainActivityLocationService.changeCamera(tehran);
         mainActivityLocationService.addMarker(tehran, "origin");
         mLocationManager.removeUpdates(this);
-        //sjhbdjb
     }
 
     @Override
